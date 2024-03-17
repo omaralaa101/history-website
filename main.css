@@ -1,0 +1,33 @@
+body{
+  background-color: bisque;
+}
+
+  
+#libraryfire img {
+    margin: 10px;
+  }
+  #image-container img {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% +10rem);
+    background-image:(
+        rgba(255, 255, 255, 0.884)
+         ,var(--primary-color)),url("images/lighthouse2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#image-container img {
+    width: 100%; /* Make the image fill the container horizontally */
+    height: 80px; /* Make the image fill the container vertically */
+    object-fit: cover; /* Maintain the aspect ratio and cover the container */
+    z-index: -1;
+}
+
+h1{
+  color: #cfc844;
+}
